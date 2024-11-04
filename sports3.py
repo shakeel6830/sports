@@ -20,6 +20,7 @@ df = pd.DataFrame(data)
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 # App layout with responsive design
 app.layout = html.Div(style={'backgroundColor': '#2c3e50', 'color': 'white', 'height': '100vh', 'margin': '0'}, children=[
